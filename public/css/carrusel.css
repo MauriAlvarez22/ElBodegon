@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#ContenDeCarrusel{
+    height: 650px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.itemCarrusel{
+    position: relative;
+}
+
+.imagenesCarrusel img{
+    height: 650px;
+    width: 100%;
+    
+}
+
+.flechasCarrusel{
+    height: 100%;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 25px;
+}
+
+.fa-chevron-left,.fa-chevron-right {
+    color: rgba(255,255,255,0.7);
+    font-size: 3rem;
+}
